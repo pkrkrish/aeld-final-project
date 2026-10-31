@@ -1,0 +1,34 @@
+#!/bin/sh
+
+case "$1" in
+    start)
+        printf "Starting rpi_chardev driver and frame_processor...\n"
+        
+        # 1. Insert character device driver module
+        if [ -f /root/rpi_chardev.ko ]; then
+            insmod /root/rpi_chardev.ko
+            echo "rpi_chardev.ko loaded successfully."
+        else
+            echo "Warning: /root/rpi_chardev.ko not found!"
+        fi
+
+        # 2. Launch real-time frame processor in the background
+        if [ -x /root/frame_processor ]; then
+            start-stop-daemon -S -b -n frame_processor -x /root/frame_processor
+            echo "frame_processor started."
+        else
+            echo "Warning: /root/frame_processor executable not found!"
+        fi
+        ;;
+    stop)
+        printf "Stopping frame_processor and unloading driver...\n"
+        start-stop-daemon -K -n frame_processor
+        rmmod rpi_chardev
+        ;;
+    *)
+        echo "Usage: $0 {start|stop}"
+        exit 1
+        ;;
+esac
+
+exit 0

@@ -6,7 +6,7 @@ The complete project documentation, design architecture, target build system con
 
 * 🌐 **[Project Overview & Architecture Wiki](https://github.com/pkrkrish/aeld-final-project/wiki)**
 * 📅 **[Project Schedule & Sprint Plan](https://github.com/pkrkrish/aeld-final-project/wiki/Schedule)**
-* 📹 **[Final Project Video Demo](https://github.com/pkrkrish/aeld-final-project/wiki/Final-Project-Video-&-Technical-Overview)**
+* 📹 **[Final Project Video Demo](https://github.com/pkrkrish/aeld-final-project/wiki/Final-Project-Video)**
 
 ## Repository Structure
 * `wiki/` or root files - Contains project configuration, application source code, and build files.

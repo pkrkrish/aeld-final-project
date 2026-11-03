@@ -7,7 +7,7 @@ The complete project documentation, design architecture, target build system con
 👉 **[View Project Overview Wiki Page](../../wiki/Project-Overview)**
 
 Schedule & Tracking
-* 👉 **[View Project Schedule & Sprint Plan](./Schedule)**
+👉 **[View Project Schedule & Sprint Plan](./Schedule)**
 
 ## Repository Structure
 * `wiki/` or root files - Contains project configuration, application source code, and build files.

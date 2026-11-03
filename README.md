@@ -4,7 +4,7 @@ This repository contains my individual submission and source code for the Embedd
 
 The complete project documentation, design architecture, target build system configuration, open-source package integration, and schedule tracking can be found on the project wiki:
 
-* 🌐 **[Project Overview & Architecture Wiki](https://github.com/pkrkrish/aeld-final-project/wiki)**
+* 🌐 **[Project Overview & Architecture Wiki](https://github.com/pkrkrish/aeld-final-project/wiki/Project-Overview)**
 * 📅 **[Project Schedule & Sprint Plan](https://github.com/pkrkrish/aeld-final-project/wiki/Schedule)**
 * 📹 **[Final Project Video Demo](https://github.com/pkrkrish/aeld-final-project/wiki/Final-Project-Video)**
 
